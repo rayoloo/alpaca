@@ -6,18 +6,20 @@ const Collection = () => {
 		<div className='Collection'>
 			<div className='Container'>
 				<div className='grid'>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
+					<a href='http://google.com' target='_blank'>
+						<div className='grid-item'></div>
+					</a>
+					<div className='grid-item'></div>
+					<div className='grid-item'></div>
+					<div className='grid-item'></div>
+					<div className='grid-item'></div>
+					<div className='grid-item'></div>
+					<div className='grid-item'></div>
+					<div className='grid-item'></div>
 				</div>
-				<div className='Collection'>
-					<h1>View Collection</h1>
-				</div>
+			</div>
+			<div className='footer-text'>
+				<h1>Visit Collection</h1>
 			</div>
 		</div>
 	)
