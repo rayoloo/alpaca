@@ -1,24 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import {
-	MultiLayerPageRevealProvider,
-	useMultiLayerPageReveal,
-} from 'react-multilayer-page-reveal'
+import { MultiLayerPageRevealProvider } from 'react-multilayer-page-reveal'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import EnterPage from './components/EnterPage'
 import MainPage from './components/MainPage'
 
 function App() {
-	const { reveal } = useMultiLayerPageReveal()
-	const [click, setClick] = useState(false)
-
-	const handleClick = () => {
-		setClick(true)
-		reveal(() => {
-			console.log('hello')
-		}, 750)
-	}
-
 	const router = createBrowserRouter([
 		{
 			path: '/',
@@ -34,7 +20,7 @@ function App() {
 		<MultiLayerPageRevealProvider
 			preset='triple-woosh'
 			direction='cornerTopLeft'
-			layerColors={['#f6ea7bff', '#ffba52ff', '#e683a9ff']}>
+			layerColors={['#f6ea7bff', '#ffba52ff', '#ee82ee']}>
 			<RouterProvider router={router} />
 		</MultiLayerPageRevealProvider>
 	)

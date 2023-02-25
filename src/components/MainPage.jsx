@@ -1,4 +1,5 @@
 import React from 'react'
+
 import About from './About'
 import Collection from './Collection'
 import Hero from './Hero'

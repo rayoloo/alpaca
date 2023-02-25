@@ -2,6 +2,9 @@
 	height: 100vh;
 	width: 100%;
 	background-color: rgb(89, 181, 220);
+	background-image: url(https://cdn.discordapp.com/attachments/1023022985583542345/1079149946420330558/BrowserPreview_tmp_1.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .Speechbox {

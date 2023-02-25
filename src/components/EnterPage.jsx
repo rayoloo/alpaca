@@ -13,6 +13,7 @@ const EnterPage = props => {
 	function handleReveal() {
 		reveal(() => navigate('/home'), 750)
 	}
+
 	return (
 		<div>
 			<div className='Icon'>
