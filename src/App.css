@@ -1,76 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+* {
+	box-sizing: border-box;
+	font-family: 'Tilt Neon', cursive;
+}
+
 body {
 	background-color: #f2eeee;
-}
-
-.App {
-	background-image: url(https://media.discordapp.net/attachments/1023022985583542345/1078794973098553485/BrowserPreview_tmp.gif?width=1202&height=676);
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-radius: 25px;
-	position: fixed;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	top: 30%;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-}
-
-.App img {
-	opacity: 1;
-	margin-top: 1.5rem;
-	margin-left: 1.5rem;
-	transition: transform 0.5s ease;
-}
-
-.App img:hover {
-	transform: scale(1.15);
-}
-.overlay {
-	background-color: rgba(255, 255, 255, 0.556);
-	border-radius: 25px;
-	position: fixed;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	top: 30%;
-	width: 300px;
-	height: 300px;
-	z-index: 9;
-}
-
-.overlay:hover {
-	background-color: rgba(255, 255, 255, 0);
-}
-
-.textPos {
-	position: fixed;
-	bottom: 25%;
-	width: 100%;
-	text-align: center;
-	font-size: 1.5rem;
-	font-weight: 700;
-}
-
-.Hero {
-	height: 100vh;
-	width: 100%;
-	background-image: url(https://cdn.discordapp.com/attachments/1023022985583542345/1078862323197952070/BrowserPreview_tmp_1.gif);
-	background-repeat: no-repeat;
-	background-size: 80%;
-	background-position: -100% 100%;
 }
 
 body,
 html {
 	margin: 0;
 	padding: 0;
-}
-* {
-	box-sizing: border-box;
 }
 
 ul {
@@ -79,68 +20,4 @@ ul {
 
 a {
 	text-decoration: none;
-}
-
-.header {
-	position: fixed;
-	width: 100%;
-	height: 90px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 1rem;
-	z-index: 10;
-	transition: 0.5s;
-}
-
-.nav-menu {
-	display: flex;
-}
-
-.nav-menu li {
-	padding: 0 1rem;
-}
-
-.nav-menu a {
-	font-size: 1.2rem;
-	font-weight: 500;
-}
-
-.hamburger {
-	display: none;
-}
-
-@media screen and (max-width: 1240px) {
-	.hamburger {
-		display: block;
-	}
-
-	.nav-menu {
-		position: absolute;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		top: 0;
-		left: -100%;
-		text-align: center;
-		width: 100%;
-		height: 100vh;
-		transition: 0.3s;
-		z-index: -1;
-		background: rgba(0, 0, 0, 0.9);
-		margin-top: 0;
-	}
-
-	.nav-menu.active {
-		left: 0;
-		margin-top: 0;
-	}
-
-	.nav-menu li {
-		padding: 2rem 0;
-	}
-
-	.nav-menu a {
-		font-size: 2rem;
-	}
 }

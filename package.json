@@ -9,9 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-icons": "^4.7.1",
+    "react-multilayer-page-reveal": "^1.0.0",
+    "react-router-dom": "^6.8.1",
+    "react-text-loop": "^2.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

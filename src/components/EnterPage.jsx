@@ -1,13 +1,21 @@
 import React, { useState } from 'react'
-import '../App.css'
+import { useMultiLayerPageReveal } from 'react-multilayer-page-reveal'
+import { useNavigate } from 'react-router-dom'
+import '../styles/Enter.css'
 
 const EnterPage = props => {
 	const [style, setStyle] = useState({ display: 'none' })
 	const [styleHover, setStyleHover] = useState({ transform: 'scale(1.00)' })
 
+	const { reveal } = useMultiLayerPageReveal()
+	const navigate = useNavigate()
+
+	function handleReveal() {
+		reveal(() => navigate('/home'), 750)
+	}
 	return (
 		<div>
-			<div className='App'>
+			<div className='Icon'>
 				<img
 					style={styleHover}
 					src={
@@ -20,7 +28,7 @@ const EnterPage = props => {
 			</div>
 			<div
 				className='overlay'
-				onClick={props.clickFunction}
+				onClick={handleReveal}
 				onMouseEnter={e => {
 					setStyle({ display: 'block' })
 					setStyleHover({ transform: 'scale(1.10)' })

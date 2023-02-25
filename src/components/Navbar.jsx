@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaDiscord, FaTwitter, FaBars, FaTimes } from 'react-icons/fa'
+import '../styles/Navbar.css'
 
 const Navbar = () => {
 	const [click, setClick] = useState(false)
@@ -7,21 +8,12 @@ const Navbar = () => {
 	return (
 		<div className='header'>
 			<div>
-				<h1>Paca Land</h1>
-			</div>
-			<div>
 				<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 					<li>
-						<FaDiscord
-							size={30}
-							style={click ? { color: 'white' } : { color: 'black' }}
-						/>
+						<FaDiscord size={30} style={{ color: 'white' }} />
 					</li>
 					<li>
-						<FaTwitter
-							size={30}
-							style={click ? { color: 'white' } : { color: 'black' }}
-						/>
+						<FaTwitter size={30} style={{ color: 'white' }} />
 					</li>
 				</ul>
 			</div>
@@ -29,7 +21,7 @@ const Navbar = () => {
 				{click ? (
 					<FaTimes size={20} style={{ color: 'white' }} />
 				) : (
-					<FaBars size={20} style={{ color: 'black' }} />
+					<FaBars size={20} style={{ color: 'white' }} />
 				)}
 			</div>
 		</div>
