@@ -4,6 +4,9 @@ import '../styles/Collection.css'
 const Collection = () => {
 	return (
 		<div className='Collection'>
+			<div className='collection-header'>
+				<h1>Some of our favorites</h1>
+			</div>
 			<div className='Container'>
 				<div className='grid'>
 					<a href='http://google.com' target='_blank'>
@@ -19,7 +22,7 @@ const Collection = () => {
 				</div>
 			</div>
 			<div className='footer-text'>
-				<h1>Visit Collection</h1>
+				<h1>View The Collection</h1>
 			</div>
 		</div>
 	)

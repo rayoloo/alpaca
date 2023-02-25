@@ -5,7 +5,7 @@ import '../styles/Hero.css'
 const Hero = () => {
 	return (
 		<div className='Hero'>
-			<div className='Speechbox'>
+			{/* <div className='Speechbox'>
 				<TextLoop className='speech'>
 					<span>Hello</span>
 					<span>Bonjour</span>
@@ -13,7 +13,7 @@ const Hero = () => {
 					<span>Hola</span>
 					<span>Nǐn hǎo</span>
 				</TextLoop>
-			</div>
+			</div> */}
 		</div>
 	)
 }
