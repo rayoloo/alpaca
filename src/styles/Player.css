@@ -1,7 +1,11 @@
 .iconPlayer {
 	position: fixed;
-	top: 2%;
-	right: 2%;
+	top: 3%;
+	right: 3%;
 	color: white;
 	cursor: pointer;
+}
+
+.iconPlayer:hover {
+	color: rgba(252, 242, 164, 0.994);
 }
