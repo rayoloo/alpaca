@@ -2,16 +2,22 @@ import React, { useState } from 'react'
 import { useMultiLayerPageReveal } from 'react-multilayer-page-reveal'
 import { useNavigate } from 'react-router-dom'
 import '../styles/Enter.css'
+import audiofile from '../assets/Swipe.mp3'
+import useAudio from '../useAudio'
 
-const EnterPage = props => {
+const EnterPage = () => {
 	const [style, setStyle] = useState({ display: 'none' })
 	const [styleHover, setStyleHover] = useState({ transform: 'scale(1.00)' })
+	const [quickplay] = useAudio(audiofile)
 
 	const { reveal } = useMultiLayerPageReveal()
 	const navigate = useNavigate()
 
 	function handleReveal() {
-		reveal(() => navigate('/home'), 750)
+		quickplay()
+		reveal(() => {
+			navigate('/home')
+		}, 750)
 	}
 
 	return (

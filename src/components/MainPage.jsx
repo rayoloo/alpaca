@@ -6,7 +6,7 @@ import Describe from './Describe'
 import Hero from './Hero'
 import Navbar from './Navbar'
 
-const MainPage = () => {
+const MainPage = props => {
 	return (
 		<div className='Hero'>
 			<Navbar />
