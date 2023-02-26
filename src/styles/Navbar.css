@@ -26,6 +26,13 @@
 .hamburger {
 	display: none;
 }
+.icon {
+	color: white;
+	cursor: pointer;
+}
+.icon:hover {
+	color: rgba(252, 242, 164, 0.994);
+}
 
 @media screen and (max-width: 1240px) {
 	.hamburger {

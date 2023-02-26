@@ -1,0 +1,13 @@
+.Describe {
+	background: rgb(222, 230, 233);
+	background: linear-gradient(
+		0deg,
+		rgba(222, 230, 233, 1) 0%,
+		rgba(55, 55, 55, 1) 100%
+	);
+	width: 100%;
+	height: 100vh;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: 10rem;
+}

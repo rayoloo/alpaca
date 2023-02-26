@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FaDiscord, FaTwitter, FaBars, FaTimes } from 'react-icons/fa'
 import '../styles/Navbar.css'
+import Player from './Player'
 
 const Navbar = () => {
 	const [click, setClick] = useState(false)
@@ -10,12 +11,13 @@ const Navbar = () => {
 			<div>
 				<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 					<li>
-						<FaDiscord size={30} style={{ color: 'white' }} />
+						<FaDiscord className='icon' size={30} />
 					</li>
 					<li>
-						<FaTwitter size={30} style={{ color: 'white' }} />
+						<FaTwitter className='icon' size={30} />
 					</li>
 				</ul>
+				<Player />
 			</div>
 			<div className='hamburger' onClick={handleClick}>
 				{click ? (

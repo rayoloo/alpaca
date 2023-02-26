@@ -1,12 +1,17 @@
 * {
 	box-sizing: border-box;
-	font-family: 'BaksoSapi';
-	src: url(./fonts/BaksoSapi.otf) format('opentype');
+	font-family: BaksoSapi;
+}
+
+@font-face {
+	font-family: BaksoSapi;
+	src: url(./fonts/BaksoSapi.woff);
 }
 
 body {
 	background-color: #f2eeee;
 	overflow: overlay;
+	overflow-x: hidden;
 }
 
 body,
