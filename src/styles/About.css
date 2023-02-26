@@ -1,14 +1,14 @@
 .About {
-	color: palevioletred;
+	color: rgb(255, 255, 255);
 	width: 100%;
 	background-color: #373737;
-	padding-left: 4rem;
-	padding-right: 4rem;
+	padding-left: 15rem;
+	padding-right: 15rem;
 	padding-top: 10rem;
 }
 .Container {
 	display: flex;
-	gap: 3rem;
+	gap: 10rem;
 }
 
 .DisplayPictures {
@@ -30,11 +30,11 @@
 
 .text-title {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 3.2rem;
 }
 
 .text {
 	letter-spacing: 1px;
-	line-height: 1.8;
+	line-height: 1.2;
 	font-size: 1.7rem;
 }

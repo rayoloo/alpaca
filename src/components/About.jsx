@@ -19,9 +19,7 @@ const About = () => {
 						Magnis dis parturient montes nascetur ridiculus mus. Velit dignissim
 						sodales ut eu sem integer vitae. Neque laoreet suspendisse interdum
 						consectetur libero. Arcu cursus vitae congue mauris rhoncus aenean.
-						Rhoncus urna neque viverra justo nec. Maecenas ultricies mi eget
-						mauris pharetra et. Neque ornare aenean euismod elementum nisi.
-						Mattis enim ut tellus elementum sagittis.
+						Rhoncus urna neque viverra justo nec.
 					</p>
 				</div>
 			</div>
