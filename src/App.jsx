@@ -3,6 +3,8 @@ import { MultiLayerPageRevealProvider } from 'react-multilayer-page-reveal'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import EnterPage from './components/EnterPage'
 import MainPage from './components/MainPage'
+import MainCollection from './components/MainCollection'
+import Navbar from './components/Navbar'
 
 function App() {
 	const router = createBrowserRouter([
@@ -14,6 +16,10 @@ function App() {
 			path: '/home',
 			element: <MainPage />,
 		},
+		{
+			path: '/collection',
+			element: <MainCollection />,
+		},
 	])
 
 	return (
@@ -21,6 +27,7 @@ function App() {
 			preset='triple-woosh'
 			direction='cornerTopLeft'
 			layerColors={['#f6ea7bff', '#ffba52ff', '#ee82ee']}>
+			<Navbar />
 			<RouterProvider router={router} />
 		</MultiLayerPageRevealProvider>
 	)

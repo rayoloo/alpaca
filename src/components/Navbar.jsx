@@ -11,10 +11,14 @@ const Navbar = () => {
 			<div>
 				<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 					<li>
-						<FaDiscord className='icon' size={30} />
+						<a href='https://twitter.com/' target='_blank'>
+							<FaDiscord className='icon' size={35} />
+						</a>
 					</li>
 					<li>
-						<FaTwitter className='icon' size={30} />
+						<a href='https://discord.com/' target='_blank'>
+							<FaTwitter className='icon' size={35} />
+						</a>
 					</li>
 				</ul>
 				<Player />

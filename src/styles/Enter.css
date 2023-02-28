@@ -1,5 +1,5 @@
 .Icon {
-	background-image: url(https://media.discordapp.net/attachments/1023022985583542345/1078794973098553485/BrowserPreview_tmp.gif?width=1202&height=676);
+	background-image: url(../assets/rainbowEnter.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 25px;
@@ -47,6 +47,6 @@
 	bottom: 25%;
 	width: 100%;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	font-weight: 700;
 }

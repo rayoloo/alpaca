@@ -9,7 +9,6 @@ import Navbar from './Navbar'
 const MainPage = props => {
 	return (
 		<div className='Hero'>
-			<Navbar />
 			<Hero />
 			<About />
 			<Describe />

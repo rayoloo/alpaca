@@ -1,23 +1,25 @@
 import React, { useState } from 'react'
+import '../styles/Enter.css'
 import { useMultiLayerPageReveal } from 'react-multilayer-page-reveal'
 import { useNavigate } from 'react-router-dom'
-import '../styles/Enter.css'
-import audiofile from '../assets/Swipe.mp3'
-import useAudio from '../useAudio'
+import Swipe from './Swipe'
 
 const EnterPage = () => {
 	const [style, setStyle] = useState({ display: 'none' })
 	const [styleHover, setStyleHover] = useState({ transform: 'scale(1.00)' })
-	const [quickplay] = useAudio(audiofile)
 
 	const { reveal } = useMultiLayerPageReveal()
 	const navigate = useNavigate()
 
 	function handleReveal() {
-		quickplay()
+		Swipe()
 		reveal(() => {
 			navigate('/home')
 		}, 750)
+	}
+
+	const getImageUrl = name => {
+		return new URL(name, import.meta.url).href
 	}
 
 	return (
@@ -25,9 +27,7 @@ const EnterPage = () => {
 			<div className='Icon'>
 				<img
 					style={styleHover}
-					src={
-						'https://cdn.discordapp.com/attachments/1023022985583542345/1078798924254544084/Layer_18.png'
-					}
+					src={getImageUrl('../assets/EnterIcon.png')}
 					alt='alpaca'
 					width={250}
 					height={250}
@@ -51,14 +51,14 @@ const EnterPage = () => {
 				<span style={{ color: '#4B0082' }}>L</span>
 				<span style={{ color: '#0000FF' }}>I</span>
 				<span style={{ color: '#00FF00' }}>C</span>
-				<span style={{ color: '#FFFF00' }}>K</span>{' '}
+				<span style={{ color: '#F5E600' }}>K</span>{' '}
 				<span style={{ color: '#FF7F00' }}>T</span>
 				<span style={{ color: '#FF0000' }}>O</span>{' '}
 				<span style={{ color: '#9400D3' }}>E</span>
 				<span style={{ color: '#4B0082' }}>N</span>
 				<span style={{ color: '#0000FF' }}>T</span>
 				<span style={{ color: '#00FF00' }}>E</span>
-				<span style={{ color: '#FFFF00' }}>R</span>
+				<span style={{ color: '#FF0000' }}>R</span>
 			</p>
 		</div>
 	)
