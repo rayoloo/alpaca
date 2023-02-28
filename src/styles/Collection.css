@@ -8,6 +8,8 @@
 .Container {
 	padding-top: 0rem;
 	margin-top: 0rem;
+	padding-bottom: 0rem;
+	margin-bottom: 0rem;
 }
 
 .grid {
@@ -15,14 +17,14 @@
 	margin: 20px auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: wrap;
-	gap: 4rem;
+	gap: 1rem;
 }
 
-.cardImage {
-	width: 250px;
-	height: 250px;
+.cardImage-small {
+	width: 300px;
+	height: 300px;
 	margin: auto;
 }
 
@@ -31,7 +33,6 @@
 	width: 300px;
 	height: 300px;
 	border-radius: 25px;
-	background-color: palevioletred;
 	transition: transform 0.5s ease;
 	text-align: center;
 }
@@ -40,20 +41,22 @@
 	transform: scale(1.05);
 }
 
-.footer-text {
+.footer-text p {
+	margin-top: 0.5rem;
 	text-align: center;
-	font-size: 4rem;
+	font-size: 2rem;
 	color: rgb(112, 136, 216);
+	margin-bottom: 0.5rem;
 }
 
-.footer-text h1:hover {
+.footer-text p:hover {
 	color: rgb(139, 165, 253);
 }
 
 .collection-header {
 	text-align: center;
 	margin: 0 auto;
-	font-size: 5rem;
+	font-size: 2rem;
 	display: inline-block;
 	min-width: 100%;
 	padding-bottom: 0rem;

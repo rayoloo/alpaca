@@ -3,12 +3,11 @@ import '../styles/Collection.css'
 import { useNavigate } from 'react-router-dom'
 import { useMultiLayerPageReveal } from 'react-multilayer-page-reveal'
 import Swipe from './Swipe'
-import cards from '../cardsdata.json'
 
 const Collection = () => {
 	const { reveal } = useMultiLayerPageReveal()
 	const navigate = useNavigate()
-	const bestShowId = [7, 29, 41, 63, 75, 113, 123, 145]
+	const bestShowId = [148, 29, 41, 50, 75, 106, 126, 51]
 
 	function handleReveal() {
 		Swipe()
@@ -30,8 +29,8 @@ const Collection = () => {
 						return (
 							<div className='grid-item'>
 								<img
-									className='cardImage'
-									src={getImageUrl('../images/' + i + '.png')}
+									className='cardImage-small'
+									src={getImageUrl('../images/' + i + '.jpg')}
 									alt={i + 'of  150 alpaca'}
 								/>
 							</div>
@@ -40,7 +39,7 @@ const Collection = () => {
 				</div>
 			</div>
 			<div className='footer-text'>
-				<h1 onClick={handleReveal}>View The Collection</h1>
+				<p onClick={handleReveal}>View The Collection</p>
 			</div>
 		</div>
 	)
