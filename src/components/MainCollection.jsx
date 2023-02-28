@@ -33,7 +33,7 @@ const MainCollection = () => {
 							<div className='grid-items'>
 								<img
 									className='cardImage'
-									src={getImageUrl('../images/' + alpaca.name + '.jpg')}
+									src={getImageUrl('/images/' + alpaca.name + '.jpg')}
 									alt={alpaca.name + 'of  150 alpaca'}
 								/>
 							</div>

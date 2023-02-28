@@ -30,7 +30,7 @@ const Collection = () => {
 							<div className='grid-item'>
 								<img
 									className='cardImage-small'
-									src={getImageUrl('../images/' + i + '.jpg')}
+									src={getImageUrl('/images/' + i + '.jpg')}
 									alt={i + 'of  150 alpaca'}
 								/>
 							</div>
