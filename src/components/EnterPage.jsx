@@ -3,6 +3,7 @@ import '../styles/Enter.css'
 import { useMultiLayerPageReveal } from 'react-multilayer-page-reveal'
 import { useNavigate } from 'react-router-dom'
 import Swipe from './Swipe'
+import icon from '../assets/EnterIcon.png'
 
 const EnterPage = () => {
 	const [style, setStyle] = useState({ display: 'none' })
@@ -18,16 +19,12 @@ const EnterPage = () => {
 		}, 750)
 	}
 
-	const getImageUrl = name => {
-		return new URL(name, import.meta.url).href
-	}
-
 	return (
 		<div>
 			<div className='Icon'>
 				<img
 					style={styleHover}
-					src={getImageUrl('../assets/EnterIcon.png')}
+					src={icon}
 					alt='alpaca'
 					width={250}
 					height={250}
