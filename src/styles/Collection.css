@@ -3,6 +3,7 @@
 	background-color: rgb(209, 211, 212);
 	padding-left: 4rem;
 	padding-right: 4rem;
+	padding-top: 2rem;
 }
 
 .Container {
@@ -47,6 +48,7 @@
 	font-size: 2rem;
 	color: rgb(112, 136, 216);
 	margin-bottom: 0.5rem;
+	padding-bottom: 2rem;
 }
 
 .footer-text p:hover {

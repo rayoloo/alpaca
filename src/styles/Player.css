@@ -9,3 +9,17 @@
 .iconPlayer:hover {
 	color: rgba(252, 242, 164, 0.994);
 }
+
+@media screen and (max-width: 1240px) {
+	.iconPlayer {
+		top: 2.5%;
+		right: 8%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.iconPlayer {
+		top: 2.5%;
+		right: 10%;
+	}
+}

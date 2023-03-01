@@ -1,7 +1,7 @@
 .Hero {
 	height: 110vh;
 	width: 100%;
-	background-color: rgb(89, 181, 220);
+	background-color: #7bcfff;
 	background-image: url(../assets/HeroBanner.gif);
 	background-position: 0% 35%;
 	background-repeat: no-repeat;
@@ -17,4 +17,34 @@
 .speech {
 	font-size: 8rem;
 	color: aliceblue;
+}
+
+@media only screen and (max-width: 1830px) {
+	.Hero {
+		background-position: 70% 35%;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.Hero {
+		background-position: 80% 35%;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.Hero {
+		background-position: 100% 35%;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.Hero {
+		background-position: 5% 35%;
+	}
+}
+
+@media only screen and (max-width: 615px) {
+	.Hero {
+		background-position: 10% 35%;
+	}
 }

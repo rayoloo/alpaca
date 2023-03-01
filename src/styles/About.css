@@ -4,7 +4,6 @@
 	background-color: #373737;
 	padding-left: 15rem;
 	padding-right: 15rem;
-	padding-top: 10rem;
 }
 .Container {
 	display: flex;
@@ -14,24 +13,19 @@
 }
 
 .DisplayPictures {
-	width: 100%;
-	height: 100%;
-	border-radius: 25px;
 	padding: 1.5rem;
 	flex: 30%;
 	margin: auto;
-	background-color: palevioletred;
 }
 
 .Textbox {
 	margin: 0 auto;
-	width: 100%;
 	padding-bottom: 3rem;
 	flex: 70%;
 }
 
 .text-title {
-	text-align: center;
+	text-align: left;
 	font-size: 3.2rem;
 }
 
@@ -39,4 +33,77 @@
 	letter-spacing: 1px;
 	line-height: 1.2;
 	font-size: 1.7rem;
+}
+
+.accordion-button {
+	background-color: rgb(57, 57, 57) !important;
+	color: #ffffff;
+}
+
+.accordion-button:focus {
+	box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+	color: #fff310;
+	box-shadow: inset 0 -1px 0 rgba(250, 250, 250, 0.975);
+}
+
+.accordion-body {
+	color: rgb(255, 255, 255);
+	width: 100%;
+	background-color: #373737;
+}
+.accordion-button-icon {
+	color: #fff310;
+}
+
+.faq {
+	text-align: center;
+	font-size: 3.2rem;
+}
+
+.faq-title-container {
+	padding: '2rem';
+}
+
+@media screen and (max-width: 1500px) {
+	.About {
+		padding-left: 10rem;
+		padding-right: 10rem;
+		padding-top: 10rem;
+	}
+	.Container {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 928px) {
+	.About {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.DisplayPictures img {
+		width: 450px;
+		padding: 0rem;
+	}
+	.text-title {
+		font-size: 2.5rem;
+	}
+
+	.text {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (max-width: 732px) {
+	.About {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.DisplayPictures img {
+		width: 300px;
+		padding: 0rem;
+	}
 }

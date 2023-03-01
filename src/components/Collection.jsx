@@ -21,13 +21,13 @@ const Collection = () => {
 	return (
 		<div className='Collection'>
 			<div className='collection-header'>
-				<h1>Some of our favorites</h1>
+				<h1>here are Some of our favorites alpacas</h1>
 			</div>
 			<div className='Container'>
 				<div className='grid'>
 					{bestShowId.map(i => {
 						return (
-							<div className='grid-item'>
+							<div className='grid-item' key={i}>
 								<img
 									className='cardImage-small'
 									src={getImageUrl('/images/' + i + '.jpg')}
@@ -39,7 +39,7 @@ const Collection = () => {
 				</div>
 			</div>
 			<div className='footer-text'>
-				<p onClick={handleReveal}>View The Collection</p>
+				<p onClick={handleReveal}>View The Collection here</p>
 			</div>
 		</div>
 	)

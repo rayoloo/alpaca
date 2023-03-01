@@ -9,9 +9,9 @@ const Player = () => {
 	return (
 		<div onClick={toggle}>
 			{playing ? (
-				<BsPauseFill className='iconPlayer' size={40} />
+				<BsPauseFill className='iconPlayer' size={35} />
 			) : (
-				<BsFillPlayFill className='iconPlayer' size={40} />
+				<BsFillPlayFill className='iconPlayer' size={35} />
 			)}
 		</div>
 	)

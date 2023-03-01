@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "react": "^16.14.0",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "^16.14.0",
     "react-icons": "^4.7.1",
     "react-multilayer-page-reveal": "^1.0.0",

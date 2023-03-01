@@ -24,13 +24,13 @@ const MainCollection = () => {
 				<h1>Home</h1>
 			</div>
 			<div className='container'>
-				<div className='container-header'>
+				{/* <div className='container-header'>
 					<h1>Alpaca Collection</h1>
-				</div>
+				</div> */}
 				<div className='grid-main'>
 					{cards.map(alpaca => {
 						return (
-							<div className='grid-items'>
+							<div className='grid-items' key={alpaca.name}>
 								<img
 									className='cardImage'
 									src={getImageUrl('/images/' + alpaca.name + '.jpg')}

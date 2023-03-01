@@ -24,11 +24,7 @@ const Navbar = () => {
 				<Player />
 			</div>
 			<div className='hamburger' onClick={handleClick}>
-				{click ? (
-					<FaTimes size={20} style={{ color: 'white' }} />
-				) : (
-					<FaBars size={20} style={{ color: 'white' }} />
-				)}
+				{click ? <FaTimes size={27} /> : <FaBars size={27} />}
 			</div>
 		</div>
 	)
