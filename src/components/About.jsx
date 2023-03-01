@@ -41,12 +41,8 @@ const About = () => {
 				<div>
 					<h2 className='faq'>F A Q</h2>
 				</div>
-				<div
-					style={{
-						padding: '2rem',
-						paddingBottom: '5rem',
-					}}>
-					<Accordion alwaysOpen>
+				<div className='accord'>
+					{/* <Accordion alwaysOpen>
 						<Accordion.Item eventKey='0'>
 							<Accordion.Header>How many are there?</Accordion.Header>
 							<Accordion.Body>
@@ -95,7 +91,7 @@ const About = () => {
 								sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</Accordion.Body>
 						</Accordion.Item>
-					</Accordion>
+					</Accordion> */}
 				</div>
 			</div>
 		</div>

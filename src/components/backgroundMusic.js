@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import audiofile from '../assets/Happy.mp3'
 
-const backgroundMusic = () => {
+const BackgroundMusic = () => {
 	const [audio] = useState(new Audio(audiofile))
 	const [playing, setPlaying] = useState(false)
 	const toggle = () => setPlaying(!playing)
@@ -15,4 +15,4 @@ const backgroundMusic = () => {
 	return [playing, toggle]
 }
 
-export default backgroundMusic
+export default BackgroundMusic
