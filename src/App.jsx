@@ -1,4 +1,5 @@
 import './App.css'
+
 import { MultiLayerPageRevealProvider } from 'react-multilayer-page-reveal'
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import EnterPage from './components/EnterPage'
@@ -17,21 +18,36 @@ function App() {
 	}
 
 	return (
+<<<<<<< Updated upstream
 		<BrowserRouter>
 			<Wrapper>
 				<MultiLayerPageRevealProvider
 					preset='triple-woosh'
 					direction='cornerTopLeft'
 					layerColors={['#f6ea7bff', '#ffba52ff', '#ee82ee']}>
+=======
+		<MultiLayerPageRevealProvider
+			preset='triple-woosh'
+			direction='cornerTopLeft'
+			layerColors={['#f6ea7bff', '#ffba52ff', '#ee82ee']}>
+			<BrowserRouter>
+				<Wrapper>
+>>>>>>> Stashed changes
 					<Navbar />
 					<Routes>
 						<Route path='/' element={<EnterPage />} />
 						<Route path='/home' element={<MainPage />} />
 						<Route path='/collection' element={<MainCollection />} />
 					</Routes>
+<<<<<<< Updated upstream
 				</MultiLayerPageRevealProvider>
 			</Wrapper>
 		</BrowserRouter>
+=======
+				</Wrapper>
+			</BrowserRouter>
+		</MultiLayerPageRevealProvider>
+>>>>>>> Stashed changes
 	)
 }
 

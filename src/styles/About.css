@@ -1,19 +1,20 @@
 .About {
 	color: rgb(255, 255, 255);
-	width: 100%;
 	background-color: #373737;
 	padding-left: 12rem;
 	padding-right: 12rem;
 	padding-bottom: 6rem;
 	padding-top: 3rem;
 }
-.Container {
+
+.About-Container {
 	display: flex;
 	gap: 6rem;
 	justify-content: center;
 	align-items: center;
 }
 
+<<<<<<< Updated upstream
 .DisplayPictures {
 	flex: 30%;
 }
@@ -27,11 +28,26 @@
 }
 
 .text-title {
+=======
+.DisplayPicture {
+	flex: 30%;
+}
+
+.DisplayPicture img {
+	padding: 1rem;
+}
+
+.About-Textbox {
+	flex: 70%;
+}
+
+.About-title {
+>>>>>>> Stashed changes
 	text-align: left;
 	font-size: 3.2rem;
 }
 
-.text {
+.About-text {
 	letter-spacing: 1px;
 	line-height: 1.2;
 	font-size: 1.7rem;
@@ -43,7 +59,11 @@
 		padding-right: 10rem;
 		padding-top: 10rem;
 	}
+<<<<<<< Updated upstream
 	.Container {
+=======
+	.About-Container {
+>>>>>>> Stashed changes
 		flex-direction: column;
 	}
 }
@@ -54,6 +74,7 @@
 		padding-top: 1rem;
 	}
 
+<<<<<<< Updated upstream
 	.DisplayPictures img {
 		width: 450px;
 		padding: 0rem;
@@ -63,6 +84,17 @@
 	}
 
 	.text {
+=======
+	.DisplayPicture img {
+		width: 450px;
+		padding: 0rem;
+	}
+	.About-title {
+		font-size: 2.5rem;
+	}
+
+	.About-text {
+>>>>>>> Stashed changes
 		font-size: 1.3rem;
 	}
 }
@@ -73,7 +105,11 @@
 		padding-right: 2rem;
 	}
 
+<<<<<<< Updated upstream
 	.DisplayPictures img {
+=======
+	.DisplayPicture img {
+>>>>>>> Stashed changes
 		width: 300px;
 		padding: 0rem;
 	}

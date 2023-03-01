@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { BsPauseFill, BsFillPlayFill } from 'react-icons/bs'
 import '../styles/Player.css'
-import backgroundMusic from './backgroundMusic'
+import BackgroundMusic from './BackgroundMusic'
 
 const Player = () => {
-	const [playing, toggle] = backgroundMusic()
+	const [playing, toggle] = BackgroundMusic()
 
 	return (
 		<div onClick={toggle}>

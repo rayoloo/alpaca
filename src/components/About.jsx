@@ -1,17 +1,24 @@
 import React from 'react'
 import '../styles/About.css'
 import picture from '../assets/111.gif'
+import AccordionComponent from './AccordionComponent'
 
 const About = () => {
 	return (
 		<div className='About'>
-			<div className='Container'>
-				<div className='DisplayPictures'>
+			<div className='About-Container'>
+				<div className='DisplayPicture'>
 					<img src={picture} />
 				</div>
+<<<<<<< Updated upstream
 				<div className='Textbox'>
 					<h1 className='text-title'>Campaign</h1>
 					<p className='text'>
+=======
+				<div className='About-Textbox'>
+					<h1 className='About-title'>Campaign</h1>
+					<p className='About-text'>
+>>>>>>> Stashed changes
 						Ordinal Alpaca is made up of 150 Alpacas roaming the BTC Chain! Each
 						Alpaca is handcrafted to feel special and fun. Our mission is to
 						create fun stuff and to keep our holders satisfied! Over a hundred
@@ -19,6 +26,7 @@ const About = () => {
 					</p>
 				</div>
 			</div>
+			<AccordionComponent />
 		</div>
 	)
 }

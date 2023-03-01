@@ -10,7 +10,10 @@ const MainPage = props => {
 		<div className='Hero'>
 			<Hero />
 			<About />
+<<<<<<< Updated upstream
 			{/* <Describe /> */}
+=======
+>>>>>>> Stashed changes
 			<Collection />
 		</div>
 	)
