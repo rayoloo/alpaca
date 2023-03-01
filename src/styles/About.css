@@ -36,7 +36,7 @@
 }
 
 .accordion-button {
-	background-color: rgb(57, 57, 57) !important;
+	background-color: rgb(57, 57, 57);
 	color: #ffffff;
 }
 
@@ -46,12 +46,12 @@
 
 .accordion-button:not(.collapsed) {
 	color: #fff310;
+	background-color: rgb(57, 57, 57);
 	box-shadow: inset 0 -1px 0 rgba(250, 250, 250, 0.975);
 }
 
 .accordion-body {
 	color: rgb(255, 255, 255);
-	width: 100%;
 	background-color: #373737;
 }
 .accordion-button-icon {
