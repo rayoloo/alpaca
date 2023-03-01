@@ -7,7 +7,7 @@ const BackgroundMusic = () => {
 	const toggle = () => setPlaying(!playing)
 
 	useEffect(() => {
-		audio.volume = 0.25
+		audio.volume = 0.1
 		audio.loop = true
 		playing ? audio.play() : audio.pause()
 	}, [playing])
