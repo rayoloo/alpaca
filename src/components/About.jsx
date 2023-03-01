@@ -10,15 +10,9 @@ const About = () => {
 				<div className='DisplayPicture'>
 					<img src={picture} />
 				</div>
-<<<<<<< Updated upstream
-				<div className='Textbox'>
-					<h1 className='text-title'>Campaign</h1>
-					<p className='text'>
-=======
-				<div className='About-Textbox'>
+				<div className='About-textbox'>
 					<h1 className='About-title'>Campaign</h1>
 					<p className='About-text'>
->>>>>>> Stashed changes
 						Ordinal Alpaca is made up of 150 Alpacas roaming the BTC Chain! Each
 						Alpaca is handcrafted to feel special and fun. Our mission is to
 						create fun stuff and to keep our holders satisfied! Over a hundred

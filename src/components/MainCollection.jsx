@@ -24,9 +24,6 @@ const MainCollection = () => {
 				<h1>Home</h1>
 			</div>
 			<div className='container'>
-				{/* <div className='container-header'>
-					<h1>Alpaca Collection</h1>
-				</div> */}
 				<div className='grid-main'>
 					{cards.map(alpaca => {
 						return (

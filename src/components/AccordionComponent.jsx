@@ -5,7 +5,7 @@ import '../styles/Accordion.css'
 const AccordionComponent = () => {
 	return (
 		<div>
-			<div>
+			<div className='faq-title-container'>
 				<h2 className='faq'>F A Q</h2>
 			</div>
 			<div

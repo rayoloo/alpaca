@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { BsPauseFill, BsFillPlayFill } from 'react-icons/bs'
 import '../styles/Player.css'
 import BackgroundMusic from './BackgroundMusic'
