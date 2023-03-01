@@ -14,5 +14,3 @@ const BackgroundMusic = () => {
 
 	return [playing, toggle]
 }
-
-export default BackgroundMusic
