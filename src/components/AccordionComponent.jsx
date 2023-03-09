@@ -14,7 +14,7 @@ const AccordionComponent = () => {
 					paddingBottom: '5rem',
 				}}>
 				<Accordion alwaysOpen>
-					<Accordion.Item eventKey='0'>
+					<Accordion.Item eventKey='0' id='firstAccordion'>
 						<Accordion.Header>
 							How many are there in the collection?
 						</Accordion.Header>
@@ -28,7 +28,7 @@ const AccordionComponent = () => {
 							sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</Accordion.Body>
 					</Accordion.Item>
-					<Accordion.Item eventKey='1'>
+					<Accordion.Item eventKey='1' id='secondAccordion'>
 						<Accordion.Header>how do i get one?</Accordion.Header>
 						<Accordion.Body>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -40,7 +40,7 @@ const AccordionComponent = () => {
 							sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</Accordion.Body>
 					</Accordion.Item>
-					<Accordion.Item eventKey='3'>
+					<Accordion.Item eventKey='2' id='thirdAccordion'>
 						<Accordion.Header>What is an Ordinal Alpaca?</Accordion.Header>
 						<Accordion.Body>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -52,7 +52,7 @@ const AccordionComponent = () => {
 							sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</Accordion.Body>
 					</Accordion.Item>
-					<Accordion.Item eventKey='4'>
+					<Accordion.Item eventKey='3' id='fourthAccordion'>
 						<Accordion.Header>Future of Ordinal Alpacas</Accordion.Header>
 						<Accordion.Body>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

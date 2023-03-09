@@ -8,7 +8,7 @@
 }
 
 .accordion-button:not(.collapsed) {
-	color: #fff310;
+	color: #ffffff;
 	background-color: rgb(57, 57, 57);
 	box-shadow: inset 0 -1px 0 rgba(250, 250, 250, 0.975);
 }
@@ -25,4 +25,20 @@
 
 .faq-title-container {
 	padding: '2rem';
+}
+
+#firstAccordion .accordion-button:not(.collapsed) {
+	color: #fff310;
+}
+
+#secondAccordion .accordion-button:not(.collapsed) {
+	color: #60ee35;
+}
+
+#thirdAccordion .accordion-button:not(.collapsed) {
+	color: #ed130f;
+}
+
+#fourthAccordion .accordion-button:not(.collapsed) {
+	color: #8308ee;
 }

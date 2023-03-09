@@ -9,21 +9,13 @@
 
 .About-Container {
 	display: flex;
-	gap: 6rem;
+	gap: 5rem;
 	justify-content: center;
 	align-items: center;
 }
 
-.DisplayPicture {
-	flex: 30%;
-}
-
 .DisplayPicture img {
 	padding: 1rem;
-}
-
-.About-textbox {
-	flex: 70%;
 }
 
 .About-title {
@@ -53,6 +45,13 @@
 		padding-right: 2rem;
 		padding-top: 1rem;
 	}
+	.About-Container {
+		flex-wrap: wrap;
+		gap: 3rem;
+	}
+	.About-textbox {
+		padding-bottom: 1rem;
+	}
 
 	.DisplayPictures img {
 		width: 450px;
@@ -76,5 +75,19 @@
 	.DisplayPictures img {
 		width: 300px;
 		padding: 0rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.DisplayPictures img {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.DisplayPictures img {
+		width: 100px;
+		height: 100px;
 	}
 }
