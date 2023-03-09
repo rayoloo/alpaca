@@ -53,10 +53,6 @@
 		padding-bottom: 1rem;
 	}
 
-	.DisplayPictures img {
-		width: 450px;
-		padding: 0rem;
-	}
 	.text-title {
 		font-size: 2.5rem;
 	}
@@ -64,30 +60,17 @@
 	.text {
 		font-size: 1.3rem;
 	}
+
+	.DisplayPicture img {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 @media screen and (max-width: 732px) {
 	.About {
 		padding-left: 2rem;
 		padding-right: 2rem;
-	}
-
-	.DisplayPictures img {
-		width: 300px;
-		padding: 0rem;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.DisplayPictures img {
-		width: 200px;
-		height: 200px;
-	}
-}
-
-@media screen and (max-width: 300px) {
-	.DisplayPictures img {
-		width: 100px;
-		height: 100px;
 	}
 }

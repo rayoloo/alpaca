@@ -31,9 +31,9 @@
 	}
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
 	.Hero {
-		background-position: 95% 35%;
+		background-position: 5% 35%;
 	}
 }
 
@@ -46,5 +46,11 @@
 @media only screen and (max-width: 615px) {
 	.Hero {
 		background-position: 10% 35%;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.Hero {
+		background-position: 20% 35%;
 	}
 }

@@ -12,6 +12,7 @@
 	margin-right: auto;
 	z-index: 10;
 	color: white;
+	padding-top: 1rem;
 	font-size: 2rem;
 	text-align: center;
 }
@@ -58,6 +59,11 @@
 	border-radius: 25px;
 	transition: transform 0.5s ease;
 	text-align: center;
+}
+
+.grid-items img {
+	max-width: 100%;
+	height: auto;
 }
 
 .grid-items:hover {
